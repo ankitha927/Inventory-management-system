@@ -1,0 +1,138 @@
+.product-list-container {
+  margin: 20px;
+  padding: 20px;
+  background: #1e1e1e; 
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.product-list-container h3 {
+  color: #d3c9b5; 
+  margin-bottom: 15px;
+  font-size: 1.7rem; 
+  font-weight: bold;
+}
+
+.product-list-container span {
+  
+  color:#d3c9b5;
+}
+
+
+.filter-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.filter-bar input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background: #2c2c2c;
+  color: #fff;
+  flex: 1;
+  min-width: 150px;
+}
+
+.filter-bar button {
+  padding: 8px 14px;
+  background: #0c338e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.filter-bar button:hover {
+  background: #0c338e;
+}
+
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.product-table th,
+.product-table td {
+  padding: 10px;
+  border: 1px solid #444;
+  text-align: left;
+  color: #e0e0e0;
+}
+
+.product-table th {
+  background-color: #2c2c2c;
+  font-weight: bold;
+  color: #d3c9b5;
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #242424;
+}
+
+.product-table tr:nth-child(odd) {
+  background-color: #1e1e1e;
+}
+
+.product-table button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-table button:first-child {
+  background:#d3c9b5;
+  color: white;
+}
+
+.product-table button:first-child:hover {
+  background:#d3c9b5;
+}
+
+.product-table button:last-child {
+  background: #be1a08;
+  color: white;
+}
+
+.product-table button:last-child:hover {
+  background: #c0392b;
+}
+
+.pagination {
+  margin-top: 15px;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #2c2c2c;
+  color: #fff;
+  border: 1px solid #444;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background: #3a3a3a;
+}
+
+.pagination button:disabled {
+  background: #1e1e1e;
+  color: #777;
+  cursor: not-allowed;
+}
+
+.pagination button.active {
+  font-weight: bold;
+  background: #0c338e;
+  color: white;
+  border-color: #0c338e;
+}

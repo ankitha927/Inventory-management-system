@@ -1,0 +1,67 @@
+.product-form {
+  background-color: #121212;
+  
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.product-form input,
+.product-form textarea {
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 6px;
+  background-color: #1e1e1e;
+  color: #fff;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.product-form input:focus,
+.product-form textarea:focus {
+  border-color: #0c338e;
+}
+
+.product-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.save-btn {
+  background-color:#0c338e;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.save-btn:hover {
+  background-color: #0097a7;
+}
+
+.cancel-btn {
+  background-color: #444;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cancel-btn:hover {
+  background-color: #666;
+}
